@@ -1,0 +1,21 @@
+
+time    -   in frames
+speed   -   in pix per frame
+
+
+animated sprites:
+-----------------
+
+    Animated sprites are sets of frames that lies one under 
+one -- actually it's one big 'high' sprite. Number of 
+frames can be found in developer area of TGA-file, for 
+example:
+
+  ...
+~~~~~~~~~~~
+frames = 24
+
+  ...
+
+~~~~~~~~~~~
+TGA-footer

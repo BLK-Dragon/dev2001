@@ -1,0 +1,3 @@
+
+add to ResourcePack ability to reload resources due to changes 
+in primary surface params -- video-mode switches etc.

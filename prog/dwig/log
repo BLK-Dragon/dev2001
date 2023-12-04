@@ -1,0 +1,826 @@
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/Bout.cpp,v
+Working file: Bout.cpp
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2001/12/25 05:32:47;  author: dragon;  state: Exp;  lines: +26 -1
+logic realization started
+visualization realization started
+----------------------------
+revision 1.2
+date: 2001/12/03 05:27:09;  author: Administrator;  state: Exp;  lines: +8 -3
+fixed minor bugs in state-machine model
+----------------------------
+revision 1.1
+date: 2001/12/02 01:30:13;  author: Administrator;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/Clip.cpp,v
+Working file: Clip.cpp
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2001/12/25 05:32:47;  author: dragon;  state: Exp;  lines: +13 -4
+logic realization started
+visualization realization started
+----------------------------
+revision 1.1
+date: 2001/11/11 00:48:49;  author: Administrator;  state: Exp;
+Together using started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/Clip.hpp,v
+Working file: Clip.hpp
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2001/12/25 05:32:47;  author: dragon;  state: Exp;  lines: +49 -8
+logic realization started
+visualization realization started
+----------------------------
+revision 1.1
+date: 2001/11/11 00:48:49;  author: Administrator;  state: Exp;
+Together using started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/ClipView.cpp,v
+Working file: ClipView.cpp
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2001/12/26 06:05:10;  author: dragon;  state: Exp;  lines: +35 -7
+realized visualization of clip, jumper & indicator
+----------------------------
+revision 1.1
+date: 2001/12/25 05:32:47;  author: dragon;  state: Exp;
+logic realization started
+visualization realization started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/ClipView.hpp,v
+Working file: ClipView.hpp
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2001/12/26 06:05:10;  author: dragon;  state: Exp;  lines: +9 -1
+realized visualization of clip, jumper & indicator
+----------------------------
+revision 1.1
+date: 2001/12/25 05:32:47;  author: dragon;  state: Exp;
+logic realization started
+visualization realization started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/DwigApp.cpp,v
+Working file: DwigApp.cpp
+head: 1.6
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 6;	selected revisions: 6
+description:
+----------------------------
+revision 1.6
+date: 2001/12/02 01:30:13;  author: Administrator;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2001/11/21 04:28:09;  author: Administrator;  state: Exp;  lines: +3 -3
+state machine work checked
+dirty rects mechanism eork checked
+----------------------------
+revision 1.4
+date: 2001/11/14 04:52:02;  author: Administrator;  state: Exp;  lines: +8 -126
+event handling re-organized
+----------------------------
+revision 1.3
+date: 2001/11/13 07:06:23;  author: Administrator;  state: Exp;  lines: +126 -8
+main menu draft
+----------------------------
+revision 1.2
+date: 2001/11/11 05:47:11;  author: Administrator;  state: Exp;  lines: +83 -2
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/11/11 00:48:49;  author: Administrator;  state: Exp;
+Together using started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/DwigApp.hpp,v
+Working file: DwigApp.hpp
+head: 1.8
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 8;	selected revisions: 8
+description:
+----------------------------
+revision 1.8
+date: 2001/12/25 05:32:47;  author: dragon;  state: Exp;  lines: +15 -1
+logic realization started
+visualization realization started
+----------------------------
+revision 1.7
+date: 2001/12/02 01:30:13;  author: Administrator;  state: Exp;  lines: +30 -2
+*** empty log message ***
+----------------------------
+revision 1.6
+date: 2001/11/21 06:43:19;  author: Administrator;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2001/11/21 04:28:09;  author: Administrator;  state: Exp;  lines: +21 -3
+state machine work checked
+dirty rects mechanism eork checked
+----------------------------
+revision 1.4
+date: 2001/11/14 04:52:02;  author: Administrator;  state: Exp;  lines: +20 -10
+event handling re-organized
+----------------------------
+revision 1.3
+date: 2001/11/13 07:06:23;  author: Administrator;  state: Exp;  lines: +53 -2
+main menu draft
+----------------------------
+revision 1.2
+date: 2001/11/11 05:47:11;  author: Administrator;  state: Exp;  lines: +56 -2
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/11/11 00:48:49;  author: Administrator;  state: Exp;
+Together using started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/Emitter.hpp,v
+Working file: Emitter.hpp
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2001/12/25 05:32:47;  author: dragon;  state: Exp;  lines: +1 -0
+logic realization started
+visualization realization started
+----------------------------
+revision 1.1
+date: 2001/11/11 00:48:49;  author: Administrator;  state: Exp;
+Together using started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/Indicator.hpp,v
+Working file: Indicator.hpp
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2001/12/26 06:05:10;  author: dragon;  state: Exp;  lines: +11 -5
+realized visualization of clip, jumper & indicator
+----------------------------
+revision 1.2
+date: 2001/12/25 05:32:47;  author: dragon;  state: Exp;  lines: +1 -0
+logic realization started
+visualization realization started
+----------------------------
+revision 1.1
+date: 2001/11/11 00:48:49;  author: Administrator;  state: Exp;
+Together using started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/InitialState.cpp,v
+Working file: InitialState.cpp
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2001/12/25 05:32:47;  author: dragon;  state: Exp;  lines: +9 -0
+logic realization started
+visualization realization started
+----------------------------
+revision 1.2
+date: 2001/12/02 01:30:13;  author: Administrator;  state: Exp;  lines: +13 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/11/21 04:28:09;  author: Administrator;  state: Exp;
+state machine work checked
+dirty rects mechanism eork checked
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/Jumper.hpp,v
+Working file: Jumper.hpp
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2001/12/25 05:34:54;  author: dragon;  state: Exp;  lines: +47 -2
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/11/11 00:48:49;  author: Administrator;  state: Exp;
+Together using started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/JumperView.cpp,v
+Working file: JumperView.cpp
+head: 1.1
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+----------------------------
+revision 1.1
+date: 2001/12/25 05:34:54;  author: dragon;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/JumperView.hpp,v
+Working file: JumperView.hpp
+head: 1.1
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+----------------------------
+revision 1.1
+date: 2001/12/25 05:34:54;  author: dragon;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/MainMenu.cpp,v
+Working file: MainMenu.cpp
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+----------------------------
+revision 1.4
+date: 2001/12/03 05:27:09;  author: Administrator;  state: Exp;  lines: +17 -16
+fixed minor bugs in state-machine model
+----------------------------
+revision 1.3
+date: 2001/12/02 01:30:13;  author: Administrator;  state: Exp;  lines: +8 -1
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2001/11/21 04:28:09;  author: Administrator;  state: Exp;  lines: +4 -1
+state machine work checked
+dirty rects mechanism eork checked
+----------------------------
+revision 1.1
+date: 2001/11/14 04:52:02;  author: Administrator;  state: Exp;
+event handling re-organized
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/Matrix.cpp,v
+Working file: Matrix.cpp
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2001/12/26 06:05:10;  author: dragon;  state: Exp;  lines: +103 -20
+realized visualization of clip, jumper & indicator
+----------------------------
+revision 1.2
+date: 2001/12/25 05:34:54;  author: dragon;  state: Exp;  lines: +249 -4
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/11/11 00:48:49;  author: Administrator;  state: Exp;
+Together using started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/Matrix.hpp,v
+Working file: Matrix.hpp
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2001/12/26 06:05:10;  author: dragon;  state: Exp;  lines: +3 -2
+realized visualization of clip, jumper & indicator
+----------------------------
+revision 1.2
+date: 2001/12/25 05:34:54;  author: dragon;  state: Exp;  lines: +70 -15
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/11/11 00:48:49;  author: Administrator;  state: Exp;
+Together using started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/Attic/SchemeElement.cpp,v
+Working file: SchemeElement.cpp
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2001/12/25 05:34:54;  author: dragon;  state: dead;  lines: +0 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/11/11 00:48:49;  author: Administrator;  state: Exp;
+Together using started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/SchemeElement.hpp,v
+Working file: SchemeElement.hpp
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2001/12/25 05:34:54;  author: dragon;  state: Exp;  lines: +59 -6
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/11/11 00:48:49;  author: Administrator;  state: Exp;
+Together using started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/View.hpp,v
+Working file: View.hpp
+head: 1.1
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+----------------------------
+revision 1.1
+date: 2001/12/25 05:31:44;  author: dragon;  state: Exp;
+matrix logic & view mechanisms realization started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/dwig.dfPackage,v
+Working file: dwig.dfPackage
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+----------------------------
+revision 1.4
+date: 2001/12/26 06:05:10;  author: dragon;  state: Exp;  lines: +36 -27
+realized visualization of clip, jumper & indicator
+----------------------------
+revision 1.3
+date: 2001/12/25 05:34:54;  author: dragon;  state: Exp;  lines: +65 -28
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2001/11/21 06:43:19;  author: Administrator;  state: Exp;  lines: +35 -19
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/11/11 00:48:49;  author: Administrator;  state: Exp;
+Together using started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/dwig.dfPackage.wmf,v
+Working file: dwig.dfPackage.wmf
+head: 1.6
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: b
+total revisions: 6;	selected revisions: 6
+description:
+----------------------------
+revision 1.6
+date: 2001/12/26 06:05:10;  author: dragon;  state: Exp;  lines: +83 -74
+realized visualization of clip, jumper & indicator
+----------------------------
+revision 1.5
+date: 2001/12/25 05:34:54;  author: dragon;  state: Exp;  lines: +103 -52
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2001/12/02 01:30:13;  author: Administrator;  state: Exp;  lines: +23 -23
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2001/11/21 06:43:19;  author: Administrator;  state: Exp;  lines: +52 -46
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2001/11/11 05:47:11;  author: Administrator;  state: Exp;  lines: +11 -11
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/11/11 00:48:49;  author: Administrator;  state: Exp;
+Together using started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/dwig.xml,v
+Working file: dwig.xml
+head: 1.7
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 7;	selected revisions: 7
+description:
+----------------------------
+revision 1.7
+date: 2001/12/26 06:05:10;  author: dragon;  state: Exp;  lines: +3 -0
+realized visualization of clip, jumper & indicator
+----------------------------
+revision 1.6
+date: 2001/12/25 05:34:54;  author: dragon;  state: Exp;  lines: +48 -31
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2001/12/02 01:30:13;  author: Administrator;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2001/11/21 04:28:09;  author: Administrator;  state: Exp;  lines: +1 -0
+state machine work checked
+dirty rects mechanism eork checked
+----------------------------
+revision 1.3
+date: 2001/11/14 04:52:02;  author: Administrator;  state: Exp;  lines: +1 -0
+event handling re-organized
+----------------------------
+revision 1.2
+date: 2001/11/11 05:47:11;  author: Administrator;  state: Exp;  lines: +5 -16
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/11/11 00:48:49;  author: Administrator;  state: Exp;
+Together using started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/m.bat,v
+Working file: m.bat
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2001/12/25 05:34:54;  author: dragon;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/12/03 01:24:27;  author: Administrator;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/program structure.dfClass,v
+Working file: program structure.dfClass
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2001/12/25 05:34:54;  author: dragon;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2001/11/21 06:43:19;  author: Administrator;  state: Exp;  lines: +3 -3
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/11/11 00:48:49;  author: Administrator;  state: Exp;
+Together using started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/program structure.dfClass.wmf,v
+Working file: program structure.dfClass.wmf
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: b
+total revisions: 4;	selected revisions: 4
+description:
+----------------------------
+revision 1.4
+date: 2001/12/25 05:34:54;  author: dragon;  state: Exp;  lines: +39 -37
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2001/11/21 06:43:19;  author: Administrator;  state: Exp;  lines: +23 -13
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2001/11/11 05:47:11;  author: Administrator;  state: Exp;  lines: +10 -10
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/11/11 00:48:49;  author: Administrator;  state: Exp;
+Together using started
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/update_images.bat,v
+Working file: update_images.bat
+head: 1.1
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+----------------------------
+revision 1.1
+date: 2001/12/26 06:05:10;  author: dragon;  state: Exp;
+realized visualization of clip, jumper & indicator
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/image/images.xar,v
+Working file: image/images.xar
+head: 1.1
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: b
+total revisions: 1;	selected revisions: 1
+description:
+----------------------------
+revision 1.1
+date: 2001/12/26 06:05:19;  author: dragon;  state: Exp;
+realized visualization of clip, jumper & indicator
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/image/mainmenu_options.tga,v
+Working file: image/mainmenu_options.tga
+head: 1.1
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: b
+total revisions: 1;	selected revisions: 1
+description:
+----------------------------
+revision 1.1
+date: 2001/12/03 01:24:39;  author: Administrator;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/image/mainmenu_playbout.tga,v
+Working file: image/mainmenu_playbout.tga
+head: 1.1
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: b
+total revisions: 1;	selected revisions: 1
+description:
+----------------------------
+revision 1.1
+date: 2001/12/03 01:24:39;  author: Administrator;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/image/mainmenu_quit.tga,v
+Working file: image/mainmenu_quit.tga
+head: 1.1
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: b
+total revisions: 1;	selected revisions: 1
+description:
+----------------------------
+revision 1.1
+date: 2001/12/03 01:24:39;  author: Administrator;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/info/Design Document.fm,v
+Working file: info/Design Document.fm
+head: 1.6
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: b
+total revisions: 6;	selected revisions: 6
+description:
+----------------------------
+revision 1.6
+date: 2001/12/26 06:05:28;  author: dragon;  state: Exp;  lines: +551 -445
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2001/12/25 05:35:02;  author: dragon;  state: Exp;  lines: +482 -485
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2001/12/02 01:30:17;  author: Administrator;  state: Exp;  lines: +406 -394
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2001/11/23 05:23:28;  author: Administrator;  state: Exp;  lines: +616 -510
+design document moved back into FrameMaker
+----------------------------
+revision 1.2
+date: 2001/11/22 06:43:16;  author: Administrator;  state: Exp;  lines: +2751 -156
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/11/21 06:43:25;  author: Administrator;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/info/Attic/Design Document.pmd,v
+Working file: info/Design Document.pmd
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: b
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2001/11/23 05:23:31;  author: Administrator;  state: dead;  lines: +0 -0
+design document moved back into FrameMaker
+----------------------------
+revision 1.2
+date: 2001/11/21 06:43:25;  author: Administrator;  state: Exp;  lines: +1241 -1283
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/11/10 23:33:11;  author: Administrator;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/info/Attic/description.xar,v
+Working file: info/description.xar
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: b
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2001/11/23 05:23:32;  author: Administrator;  state: dead;  lines: +0 -0
+design document moved back into FrameMaker
+----------------------------
+revision 1.1
+date: 2001/11/10 23:33:11;  author: Administrator;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/info/Attic/game layout.xar,v
+Working file: info/game layout.xar
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: b
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2001/11/23 05:23:32;  author: Administrator;  state: dead;  lines: +0 -0
+design document moved back into FrameMaker
+----------------------------
+revision 1.1
+date: 2001/11/10 23:33:11;  author: Administrator;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: d:\data\cvs_root/dev0/prog/dwig/info/Attic/menu.xar,v
+Working file: info/menu.xar
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: b
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2001/11/23 05:23:32;  author: Administrator;  state: dead;  lines: +0 -0
+design document moved back into FrameMaker
+----------------------------
+revision 1.1
+date: 2001/11/10 23:33:11;  author: Administrator;  state: Exp;
+*** empty log message ***
+=============================================================================

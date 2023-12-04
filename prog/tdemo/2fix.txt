@@ -1,0 +1,9 @@
+
+[û] string member in .ini-file containing spaces is NOT 
+    placed into paramset.
+
+[û] in glare star rasterizer, when set color different from 
+    #FFFFFF, strange picture appeared
+
+[ ] edge-antialiasing in planets
+

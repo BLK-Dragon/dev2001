@@ -1,0 +1,33 @@
+VectorCFile Project "TGAtool" 
+ Version {
+ Save 1 . 0 
+ LoadMin 1 . 0 
+ Compiler
+ { "Default" "BD560F13-AF76-414E-9E7C-D115F8A02DAD" 1 "D:\Program Files\Intel\Compiler50\ia32\bin\icl.exe" } Configuration
+ { "Win32 Release"  Project
+ { "TGAtool" 0 ProjectSettings
+ 0 Add "" File
+ ".\StdAfx.cpp"  File
+ ".\TGAtool.cpp"  File
+ ".\TGAtool.rc"  File
+ ".\TGAtoolDlg.cpp"  File
+ ".\Resource.h"  File
+ ".\StdAfx.h"  File
+ ".\TGAtool.h"  File
+ ".\TGAtoolDlg.h"  File
+ ".\res\TGAtool.ico"  File
+ ".\res\TGAtool.rc2"  } } Configuration
+ { "Win32 Debug"  Project
+ { "TGAtool" 0 ProjectSettings
+ 0 Add "" File
+ ".\StdAfx.cpp"  File
+ ".\TGAtool.cpp"  File
+ ".\TGAtool.rc"  File
+ ".\TGAtoolDlg.cpp"  File
+ ".\Resource.h"  File
+ ".\StdAfx.h"  File
+ ".\TGAtool.h"  File
+ ".\TGAtoolDlg.h"  File
+ ".\res\TGAtool.ico"  File
+ ".\res\TGAtool.rc2"  } } }
+ 

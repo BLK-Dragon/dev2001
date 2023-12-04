@@ -1,0 +1,18 @@
+Toster save-file
+
+stars per line                   = 1
+star probability                 = 0.119804
+[0] grid size                    = 0.036928
+[0] intensity base               = 100
+[0] intensity range              = 255
+[1] grid size                    = 0.108784
+[1] intensity base               = 88
+[1] intensity range              = 105
+[2] grid size                    = 0.236528
+[2] intensity base               = 18
+[2] intensity range              = 80
+frare size                       = 23
+galaxy [layer0]                  = 00AEA82F
+galaxy [layer1]                  = 00C97D61
+galaxy [layer2]                  = 00963F98
+glow color                       = 00F26D4D

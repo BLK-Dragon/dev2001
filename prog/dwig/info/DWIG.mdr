@@ -1,0 +1,637 @@
+MagicDrawUML "4.5"
+(RTManager
+	(RTManagerOptions
+		USE_SPACES "true"
+		SPACES_COUNT 4
+		CODE_GENERATION_REVERSE_OPTION 0
+		DELETED_ELEMENT_GENERATION_OPTION 1
+		USE_CLASSPATH_FOR_JAVA_REVERSE TRUE
+		LAUNCH_WIZARD FALSE
+		MERGE_AFTER_REVERSE FALSE
+		CREATE_ATTRIBUTES TRUE
+		DEFAULT_WORKING_DIRECTORY "F:\\Program Files\\MagicDraw UML 4.5"
+		DEFAULT_LANGUAGE "Java"
+		(JavaLanguageOptions
+			mGenEmptyDoc FALSE
+			mBracketInNewLine TRUE
+			mAddSpaces TRUE
+			mCommentStyle 0
+			mUseJavaDoc FALSE
+			(DocumentationTagManager
+				(CLASSIFIER
+					(DocumentationTagProperty
+						mName "DESCRIPTION"
+						mGenerate "true"
+					)
+				)
+				(OPERARTION
+					(DocumentationTagProperty
+						mName "DESCRIPTION"
+						mGenerate "true"
+					)
+					(DocumentationTagProperty
+						mName "@param"
+						mGenerate "true"
+					)
+					(DocumentationTagProperty
+						mName "@return"
+						mGenerate "true"
+					)
+					(DocumentationTagProperty
+						mName "@throws"
+						mGenerate "true"
+					)
+				)
+				(ATTRIBUTE
+					(DocumentationTagProperty
+						mName "DESCRIPTION"
+						mGenerate "true"
+					)
+				)
+			)
+			mUseClassPath TRUE
+			mClassPath "F:\\Program Files\\MagicDraw UML 4.5\\lib\\batik.jar;F:\\Program Files\\MagicDraw UML 4.5\\lib\\crimson.jar;F:\\Program Files\\MagicDraw UML 4.5\\lib\\activation.jar;F:\\Program Files\\MagicDraw UML 4.5\\lib\\bsf.jar;F:\\Program Files\\MagicDraw UML 4.5\\lib\\bsfengines.jar;F:\\Program Files\\MagicDraw UML 4.5\\lib\\jaxp.jar;F:\\Program Files\\MagicDraw UML 4.5\\lib\\jhall.jar;F:\\Program Files\\MagicDraw UML 4.5\\lib\\log4j.jar;F:\\Program Files\\MagicDraw UML 4.5\\lib\\mail.jar;F:\\Program Files\\MagicDraw UML 4.5\\lib\\xalan.jar;F:\\Program Files\\MagicDraw UML 4.5\\lib\\md.jar;F:\\Program Files\\MagicDraw UML 4.5\\lib\\resources.jar;F:\\Program Files\\MagicDraw UML 4.5\\lib\\editor.jar;F:\\Program Files\\MagicDraw UML 4.5\\lib\\kunststoff.jar;F:\\Program Files\\MagicDraw UML 4.5\\lib\\editor.jar;F:\\Program Files\\MagicDraw UML 4.5\\lib\\patch.jar;F:\\Program Files\\MagicDraw UML 4.5\\bin\\lax.jar;f:\\together5.02\\jdk\\lib\\dt.jar;f:\\together5.02\\jdk\\lib\\tools.jar;"
+		)
+		(CppLanguageOptions
+			mGenEmptyDoc FALSE
+			mBracketInNewLine TRUE
+			mAddSpaces TRUE
+			mCommentStyle 0
+			mUseJavaDoc FALSE
+			mCommentsStyle 0
+			mDocumentationOption FALSE
+			mUseIncludePath FALSE
+			mUseMacros FALSE
+			mIncludePath ""
+		)
+		(IDLLanguageOptions
+			mTranslationLang "IDL"
+			mGenEmptyDoc FALSE
+			mBracketInNewLine TRUE
+			mAddSpaces TRUE
+			mCommentStyle 0
+			mUseJavaDoc FALSE
+			(DocumentationTagManager
+				(CLASSIFIER
+					(DocumentationTagProperty
+						mName "DESCRIPTION"
+						mGenerate "true"
+					)
+				)
+				(OPERARTION
+					(DocumentationTagProperty
+						mName "DESCRIPTION"
+						mGenerate "true"
+					)
+					(DocumentationTagProperty
+						mName "@param"
+						mGenerate "true"
+					)
+					(DocumentationTagProperty
+						mName "@return"
+						mGenerate "true"
+					)
+					(DocumentationTagProperty
+						mName "@throws"
+						mGenerate "true"
+					)
+				)
+				(ATTRIBUTE
+					(DocumentationTagProperty
+						mName "DESCRIPTION"
+						mGenerate "true"
+					)
+				)
+			)
+		)
+		(DDLLanguageOptions
+			mGenerateDocumentation TRUE
+			mGenEmptyDoc FALSE
+			mBracketInNewLine TRUE
+			mAddSpaces TRUE
+			mCommentStyle 0
+			mUseJavaDoc FALSE
+		)
+		DEFAULT_WORKING_DIRECTORY "F:\\Program Files\\MagicDraw UML 4.5"
+	)
+	(RTProjectGroupObject
+		mID "ID0000000002c5"
+		mName "Code engineering sets"
+		(RTCppProjectObject
+			mID "ID0000000002c6"
+			mName "default"
+			(mProperties
+				mName "Project"
+				DEFAULT_METHOD_RETURN_TYPE "int"
+				DEFAULT_ATTRIBUTE_TYPE "int"
+				MAIN_FILE_EXTENSION "cpp"
+				HEADER_FILE_EXTENSION "h"
+			)
+			(RTCppComponent
+				mPair "ID0000000002c7"
+				mDeclaration ""
+				mID "ID0000000002c8"
+				mName "Emitter.h"
+				mObjectDataID "ID000000000120"
+				mLastModified "0"
+				(RTClassObject
+					mID "ID0000000002c9"
+					mName "Emitter"
+					mObjectDataID "ID000000000121"
+				)
+			)
+			(RTCppComponent
+				mPair "ID0000000002c8"
+				mDeclaration "ID000000000121"
+				mID "ID0000000002c7"
+				mName "Emitter.cpp"
+				mObjectDataID "ID000000000128"
+				mLastModified "0"
+			)
+			(RTCppComponent
+				mPair "ID0000000002ca"
+				mDeclaration ""
+				mID "ID0000000002cb"
+				mName "Jumper.h"
+				mObjectDataID "ID000000000111"
+				mLastModified "0"
+				(RTClassObject
+					mID "ID0000000002cc"
+					mName "Jumper"
+					mObjectDataID "ID000000000112"
+				)
+			)
+			(RTCppComponent
+				mPair "ID0000000002cb"
+				mDeclaration "ID000000000112"
+				mID "ID0000000002ca"
+				mName "Jumper.cpp"
+				mObjectDataID "ID00000000011d"
+				mLastModified "0"
+			)
+			(RTCppComponent
+				mPair "ID0000000002cd"
+				mDeclaration ""
+				mID "ID0000000002ce"
+				mName "Displayable.h"
+				mObjectDataID "ID00000000011b"
+				mLastModified "0"
+				(RTClassObject
+					mID "ID0000000002cf"
+					mName "Displayable"
+					mObjectDataID "ID00000000001c"
+					(RTAttributeObject
+						mID "ID0000000002d0"
+						mName "view"
+						mObjectDataID "ID0000000000ef"
+					)
+					(RTMethodObject
+						mID "ID0000000002d1"
+						mName "bind"
+						mObjectDataID "ID0000000000cf"
+						(RTAttributeObject
+							mID "ID0000000002d2"
+							mName "view"
+							mObjectDataID "ID0000000000ea"
+						)
+					)
+					(RTMethodObject
+						mID "ID0000000002d3"
+						mName "update"
+						mObjectDataID "ID0000000000b6"
+					)
+					(RTMethodObject
+						mID "ID0000000002d4"
+						mName "Displayable"
+						mObjectDataID "ID0000000000f4"
+					)
+				)
+			)
+			(RTCppComponent
+				mPair "ID0000000002ce"
+				mDeclaration "ID00000000001c"
+				mID "ID0000000002cd"
+				mName "Displayable.cpp"
+				mObjectDataID "ID000000000119"
+				mLastModified "0"
+				(RTMethodObject
+					mID "ID0000000002d5"
+					mName "bind"
+					mObjectDataID "ID0000000000cf"
+					(RTAttributeObject
+						mID "ID0000000002d6"
+						mName "view"
+						mObjectDataID "ID0000000000ea"
+					)
+				)
+				(RTMethodObject
+					mID "ID0000000002d7"
+					mName "update"
+					mObjectDataID "ID0000000000b6"
+				)
+				(RTMethodObject
+					mID "ID0000000002d8"
+					mName "Displayable"
+					mObjectDataID "ID0000000000f4"
+				)
+			)
+			(RTCppComponent
+				mPair "ID0000000002d9"
+				mDeclaration ""
+				mID "ID0000000002da"
+				mName "GameClient.h"
+				mObjectDataID "ID00000000011e"
+				mLastModified "0"
+				(RTClassObject
+					mID "ID0000000002db"
+					mName "GameBout"
+					mObjectDataID "ID00000000002d"
+					(RTRoleObject
+						mID "ID0000000002dc"
+						mName "contains"
+						mObjectDataID "ID000000000172"
+					)
+					(RTRoleObject
+						mID "ID0000000002dd"
+						mObjectDataID "ID000000000109"
+					)
+					(RTGeneralizationObject
+						mID "ID0000000002de"
+						mObjectDataID "ID00000000002c"
+					)
+					(RTGeneralizationObject
+						mID "ID0000000002df"
+						mObjectDataID "ID00000000003e"
+					)
+				)
+			)
+			(RTCppComponent
+				mPair "ID0000000002da"
+				mDeclaration "ID00000000002d"
+				mID "ID0000000002d9"
+				mName "GameClient.cpp"
+				mObjectDataID "ID00000000011a"
+				mLastModified "0"
+			)
+			(RTCppComponent
+				mPair "ID0000000002e0"
+				mDeclaration ""
+				mID "ID0000000002e1"
+				mName "DwigApp.h"
+				mObjectDataID "ID00000000011f"
+				mLastModified "0"
+				(RTClassObject
+					mID "ID0000000002e2"
+					mName "DwigApp"
+					mObjectDataID "ID000000000031"
+					(RTMethodObject
+						mID "ID0000000002e3"
+						mName "init"
+						mObjectDataID "ID000000000058"
+					)
+					(RTMethodObject
+						mID "ID0000000002e4"
+						mName "update"
+						mObjectDataID "ID00000000005c"
+					)
+					(RTMethodObject
+						mID "ID0000000002e5"
+						mName "draw"
+						mObjectDataID "ID000000000060"
+					)
+					(RTClassObject
+						mID "ID0000000002e6"
+						mName "State"
+						mObjectDataID "ID000000000038"
+						(RTMethodObject
+							mID "ID0000000002e7"
+							mName "enter_state"
+							mObjectDataID "ID000000000046"
+						)
+						(RTMethodObject
+							mID "ID0000000002e8"
+							mName "leave_state"
+							mObjectDataID "ID00000000004a"
+						)
+						(RTMethodObject
+							mID "ID0000000002e9"
+							mName "lock"
+							mObjectDataID "ID00000000004e"
+						)
+						(RTMethodObject
+							mID "ID0000000002ea"
+							mName "unlock"
+							mObjectDataID "ID000000000051"
+						)
+						(RTMethodObject
+							mID "ID0000000002eb"
+							mName "is_locked"
+							mObjectDataID "ID000000000054"
+						)
+						(RTRoleObject
+							mID "ID0000000002ec"
+							mObjectDataID "ID000000000177"
+						)
+						(RTGeneralizationObject
+							mID "ID0000000002ed"
+							mObjectDataID "ID000000000044"
+						)
+						(RTRoleObject
+							mID "ID0000000002ee"
+							mObjectDataID "ID000000000039"
+						)
+					)
+					(RTGeneralizationObject
+						mID "ID0000000002ef"
+						mObjectDataID "ID000000000033"
+					)
+					(RTRoleObject
+						mID "ID0000000002f0"
+						mObjectDataID "ID00000000017a"
+					)
+					(RTMethodObject
+						mID "ID0000000002f1"
+						mName "change_state"
+						mObjectDataID "ID000000000064"
+					)
+				)
+			)
+			(RTCppComponent
+				mPair "ID0000000002e1"
+				mDeclaration "ID000000000031"
+				mID "ID0000000002e0"
+				mName "DwigApp.cpp"
+				mObjectDataID "ID000000000116"
+				mLastModified "0"
+				(RTMethodObject
+					mID "ID0000000002f2"
+					mName "draw"
+					mObjectDataID "ID000000000060"
+				)
+				(RTMethodObject
+					mID "ID0000000002f3"
+					mName "leave_state"
+					mObjectDataID "ID00000000004a"
+				)
+				(RTMethodObject
+					mID "ID0000000002f4"
+					mName "enter_state"
+					mObjectDataID "ID000000000046"
+				)
+				(RTMethodObject
+					mID "ID0000000002f5"
+					mName "update"
+					mObjectDataID "ID00000000005c"
+				)
+				(RTMethodObject
+					mID "ID0000000002f6"
+					mName "change_state"
+					mObjectDataID "ID000000000064"
+				)
+				(RTMethodObject
+					mID "ID0000000002f7"
+					mName "init"
+					mObjectDataID "ID000000000058"
+				)
+			)
+			(RTCppComponent
+				mPair "ID0000000002f8"
+				mDeclaration ""
+				mID "ID0000000002f9"
+				mName "SchemeElement.h"
+				mObjectDataID "ID00000000010f"
+				mLastModified "0"
+				(RTClassObject
+					mID "ID0000000002fa"
+					mName "SchemeElement"
+					mObjectDataID "ID0000000000f8"
+				)
+			)
+			(RTCppComponent
+				mPair "ID0000000002f9"
+				mDeclaration "ID0000000000f8"
+				mID "ID0000000002f8"
+				mName "SchemeElement.cpp"
+				mObjectDataID "ID000000000113"
+				mLastModified "0"
+			)
+			(RTCppComponent
+				mPair "ID0000000002fb"
+				mDeclaration ""
+				mID "ID0000000002fc"
+				mName "Indicator.h"
+				mObjectDataID "ID000000000114"
+				mLastModified "0"
+				(RTClassObject
+					mID "ID0000000002fd"
+					mName "Indicator"
+					mObjectDataID "ID00000000010c"
+				)
+			)
+			(RTCppComponent
+				mPair "ID0000000002fc"
+				mDeclaration "ID00000000010c"
+				mID "ID0000000002fb"
+				mName "Indicator.cpp"
+				mObjectDataID "ID000000000125"
+				mLastModified "0"
+			)
+			(RTCppComponent
+				mPair "ID0000000002fe"
+				mDeclaration ""
+				mID "ID0000000002ff"
+				mName "View.h"
+				mObjectDataID "ID000000000117"
+				mLastModified "0"
+				(RTClassObject
+					mID "ID000000000300"
+					mName "View"
+					mObjectDataID "ID000000000002"
+					(RTAttributeObject
+						mID "ID000000000301"
+						mName "valid"
+						mObjectDataID "ID00000000001e"
+					)
+					(RTMethodObject
+						mID "ID000000000302"
+						mName "redraw"
+						mObjectDataID "ID000000000004"
+					)
+					(RTMethodObject
+						mID "ID000000000303"
+						mName "save_background"
+						mObjectDataID "ID000000000008"
+					)
+					(RTMethodObject
+						mID "ID000000000304"
+						mName "restore_background"
+						mObjectDataID "ID00000000000b"
+					)
+					(RTMethodObject
+						mID "ID000000000305"
+						mName "invalidate"
+						mObjectDataID "ID00000000000e"
+					)
+					(RTMethodObject
+						mID "ID000000000306"
+						mName "validate"
+						mObjectDataID "ID000000000011"
+					)
+					(RTMethodObject
+						mID "ID000000000307"
+						mName "is_valid"
+						mObjectDataID "ID000000000014"
+					)
+					(RTMethodObject
+						mID "ID000000000308"
+						mName "bind"
+						mObjectDataID "ID000000000018"
+						(RTAttributeObject
+							mID "ID000000000309"
+							mName "displayable"
+							mObjectDataID "ID00000000001a"
+						)
+					)
+					(RTMethodObject
+						mID "ID00000000030a"
+						mName "save_background_all"
+						mObjectDataID "ID000000000023"
+					)
+					(RTMethodObject
+						mID "ID00000000030b"
+						mName "restore_background_all"
+						mObjectDataID "ID000000000026"
+					)
+					(RTMethodObject
+						mID "ID00000000030c"
+						mName "redraw_all"
+						mObjectDataID "ID000000000029"
+					)
+					(RTRoleObject
+						mID "ID00000000030d"
+						mName "contains"
+						mObjectDataID "ID00000000016f"
+					)
+					(RTRoleObject
+						mID "ID00000000030e"
+						mObjectDataID "ID000000000035"
+					)
+				)
+			)
+			(RTCppComponent
+				mPair "ID0000000002ff"
+				mDeclaration "ID000000000002"
+				mID "ID0000000002fe"
+				mName "View.cpp"
+				mObjectDataID "ID000000000115"
+				mLastModified "0"
+				(RTMethodObject
+					mID "ID00000000030f"
+					mName "save_background"
+					mObjectDataID "ID000000000008"
+				)
+				(RTMethodObject
+					mID "ID000000000310"
+					mName "redraw_all"
+					mObjectDataID "ID000000000029"
+				)
+				(RTMethodObject
+					mID "ID000000000311"
+					mName "invalidate"
+					mObjectDataID "ID00000000000e"
+				)
+				(RTMethodObject
+					mID "ID000000000312"
+					mName "redraw"
+					mObjectDataID "ID000000000004"
+				)
+				(RTMethodObject
+					mID "ID000000000313"
+					mName "bind"
+					mObjectDataID "ID000000000018"
+					(RTAttributeObject
+						mID "ID000000000314"
+						mName "displayable"
+						mObjectDataID "ID00000000001a"
+					)
+				)
+				(RTMethodObject
+					mID "ID000000000315"
+					mName "save_background_all"
+					mObjectDataID "ID000000000023"
+				)
+				(RTMethodObject
+					mID "ID000000000316"
+					mName "restore_background"
+					mObjectDataID "ID00000000000b"
+				)
+				(RTMethodObject
+					mID "ID000000000317"
+					mName "is_valid"
+					mObjectDataID "ID000000000014"
+				)
+				(RTMethodObject
+					mID "ID000000000318"
+					mName "validate"
+					mObjectDataID "ID000000000011"
+				)
+				(RTMethodObject
+					mID "ID000000000319"
+					mName "restore_background_all"
+					mObjectDataID "ID000000000026"
+				)
+			)
+			(RTCppComponent
+				mPair "ID00000000031a"
+				mDeclaration ""
+				mID "ID00000000031b"
+				mName "Clip.h"
+				mObjectDataID "ID000000000124"
+				mLastModified "0"
+				(RTClassObject
+					mID "ID00000000031c"
+					mName "Clip"
+					mObjectDataID "ID0000000000d2"
+				)
+			)
+			(RTCppComponent
+				mPair "ID00000000031b"
+				mDeclaration "ID0000000000d2"
+				mID "ID00000000031a"
+				mName "Clip.cpp"
+				mObjectDataID "ID000000000122"
+				mLastModified "0"
+			)
+			(RTCppComponent
+				mPair "ID00000000031d"
+				mDeclaration ""
+				mID "ID00000000031e"
+				mName "Matrix.h"
+				mObjectDataID "ID000000000118"
+				mLastModified "0"
+				(RTClassObject
+					mID "ID00000000031f"
+					mName "Matrix"
+					mObjectDataID "ID00000000002f"
+					(RTRoleObject
+						mID "ID000000000320"
+						mObjectDataID "ID000000000106"
+					)
+				)
+			)
+			(RTCppComponent
+				mPair "ID00000000031e"
+				mDeclaration "ID00000000002f"
+				mID "ID00000000031d"
+				mName "Matrix.cpp"
+				mObjectDataID "ID00000000011c"
+				mLastModified "0"
+			)
+			mLanguage "C++"
+			WORKING_DIRECTORY "D:\\temp\\7"
+			GenerationDir "D:\\temp\\7"
+			CLASSIFIERS_MAP(MAPPING
+				)
+		)
+	)
+)

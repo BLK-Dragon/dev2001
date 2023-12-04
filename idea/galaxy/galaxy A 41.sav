@@ -1,0 +1,24 @@
+Toster save-file
+
+galaxy threshold                 = 1
+nebula threshold                 = 255
+[0] grid size                    = 0.033934
+[0] grid start                   = 0.650870
+[0] intensity base               = 85
+[0] intensity range              = 163
+[1] grid size                    = 0.078844
+[1] grid start                   = 0.001000
+[1] intensity base               = 23
+[1] intensity range              = 45
+[2] grid size                    = 0.102796
+[2] grid start                   = 0.001000
+[2] intensity base               = 28
+[2] intensity range              = 10
+[0] layer color                  = 00672416
+[1] layer color                  = 00695F1F
+[2] layer color                  = 0068446C
+[0]1 galaxy color                = 00FFFFFF
+glow color                       = 00F26D4D
+[0] kind of noise                = 0
+[1] kind of noise                = 0
+[2] kind of noise                = 0

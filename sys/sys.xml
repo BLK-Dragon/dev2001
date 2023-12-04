@@ -1,0 +1,189 @@
+<?xml version="1.0" ?>
+
+<workspace version="1.1" >
+
+<macro
+    name    = "default_CPPopt"
+    value   = "-c -nologo -GR -GX -O2 -Qwn3 -Qwd 985 -Qsox- -DTRACING"
+/>
+
+<macro
+    name    = "debug_CPPopt"
+    value   = "-c -nologo -GR -GX -Od -Zi -Qwn3 -Qwd 985 -Qsox- -DTRACING"
+/>
+
+
+<!--
+==== GUI ======================================================================= 
+-->
+
+<project
+    name        = "gui"
+    target      = "gui.lib"
+>
+
+    <config name = "default" >
+
+        <link
+            ext         = "obj"
+            tool        = "lib.exe"
+            opt         = "-out:_default\gui.lib"
+            before_all  = "if not exist _default mkdir _default"
+        />
+
+        <file_association
+            in_ext  = "cpp"
+            out_ext = "obj"
+            tool    = "icl.exe"
+            opt     = "$(default_CPPopt) -Fo_default/"
+        />
+
+    </config>
+
+    <config name = "debug" >
+
+        <link
+            ext         = "obj"
+            tool        = "lib.exe"
+            opt         = "-debugtype:cv
+                           -out:_debug\gui.lib
+                          "
+            before_all  = "if not exist _debug mkdir _debug"
+        />
+
+        <file_association
+            in_ext  = "cpp"
+            out_ext = "obj"
+            tool    = "icl.exe"
+            opt     = "$(debug_CPPopt) -Fo_debug/"
+        />
+
+    </config>
+
+    <file name = "GUImanager.cpp" ></file>
+    <file name = "WidgetView.cpp" ></file>
+
+</project>
+
+
+<!-- 
+==== VFX =======================================================================
+-->
+
+<project
+    name        = "vfx"
+    target      = "vfx.lib"
+>
+    <config name = "default" >
+    
+        <link
+            ext         = "obj"
+            tool        = "lib.exe"
+            opt         = "-out:_default\vfx.lib"
+            before_all  = "if not exist _default mkdir _default"
+        />
+
+        <file_association
+            in_ext  = "cpp"
+            out_ext = "obj"
+            tool    = "icl.exe"
+            opt     = "$(default_CPPopt) -Fo_default/"
+        />
+    
+    </config>
+
+    <config name = "debug" >
+    
+        <link
+            ext         = "obj"
+            tool        = "lib.exe"
+            opt         = "-debugtype:cv
+                           -out:_debug\vfx.lib
+                          "
+            before_all  = "if not exist _debug mkdir _debug"
+        />
+
+        <file_association
+            in_ext  = "cpp"
+            out_ext = "obj"
+            tool    = "icl.exe"
+            opt     = "$(debug_CPPopt) -Fo_debug/"
+        />
+    
+    </config>
+
+    <file name = "Render2D.cpp" ></file>
+    <file name = "Noise.cpp" ></file>
+    <file name = "Random.cpp" ></file>
+    <file name = "PixelShader.cpp" ></file>
+
+</project>
+
+
+<!-- 
+==== Core ======================================================================
+-->
+
+<project
+    name        = "core"
+    target      = "core.lib"
+>
+    <config name = "default" >
+    
+        <link
+            ext         = "obj"
+            tool        = "lib.exe"
+            opt         = "-debugtype:cv
+                           -out:_default\core.lib
+                          "
+            before_all  = "if not exist _default mkdir _default"
+        />
+
+        <file_association
+            in_ext  = "cpp"
+            out_ext = "obj"
+            tool    = "icl.exe"
+            opt     = "$(default_CPPopt) -Fo_default/"
+        />
+
+    </config>
+    
+    <config name = "debug" >
+    
+        <link
+            ext         = "obj"
+            tool        = "lib.exe"
+            opt         = "-out:_debug\core.lib"
+            before_all  = "if not exist _debug mkdir _debug"
+        />
+
+        <file_association
+            in_ext  = "cpp"
+            out_ext = "obj"
+            tool    = "icl.exe"
+            opt     = "$(debug_CPPopt) -Fo_debug/"
+        />
+
+    </config>
+
+    <file name="Core.cpp" ></file>
+    <file name="CoreMain.cpp" ></file>
+    <file name="DDrawError.cpp" ></file>
+    <file name="File.cpp" ></file>
+    <file name="FileSystem.cpp" ></file>
+    <file name="Font.cpp" ></file>
+    <file name="Image.cpp" ></file>
+    <file name="Keyboard.cpp" ></file>
+    <file name="Mouse.cpp" ></file>
+    <file name="ParamSet.cpp" ></file>
+    <file name="ResourcePack.cpp" ></file>
+    <file name="Sprite.cpp" ></file>
+    <file name="Surface.cpp" ></file>
+    <file name="VideoCard.cpp" ></file>
+    <file name="ZipFile.cpp" ></file>
+
+
+</project>
+
+
+</workspace>

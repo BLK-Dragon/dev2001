@@ -1,0 +1,188 @@
+
+RCS file: e:\data\cvs_root/dev0/tool/ide/Workspace.cpp,v
+Working file: Workspace.cpp
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	tdemo_1_21: 1.2
+	tdemo_1_20: 1.2
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+----------------------------
+revision 1.4
+date: 2001/12/07 08:04:09;  author: Administrator;  state: Exp;  lines: +130 -23
+v1.1 development started
+DOM model used
+project description enhanced: configs added
+----------------------------
+revision 1.3
+date: 2001/10/02 05:48:53;  author: Administrator;  state: Exp;  lines: +98 -33
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2001/09/25 03:18:00;  author: Administrator;  state: Exp;  lines: +3 -2
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/09/22 08:06:39;  author: Administrator;  state: Exp;
+base version of MAKEFILE generator
+=============================================================================
+
+RCS file: e:\data\cvs_root/dev0/tool/ide/Workspace.hpp,v
+Working file: Workspace.hpp
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	tdemo_1_21: 1.1
+	tdemo_1_20: 1.1
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2001/12/07 08:04:09;  author: Administrator;  state: Exp;  lines: +45 -18
+v1.1 development started
+DOM model used
+project description enhanced: configs added
+----------------------------
+revision 1.2
+date: 2001/10/02 05:48:53;  author: Administrator;  state: Exp;  lines: +8 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/09/22 08:06:39;  author: Administrator;  state: Exp;
+base version of MAKEFILE generator
+=============================================================================
+
+RCS file: e:\data\cvs_root/dev0/tool/ide/gen_makefile.mk,v
+Working file: gen_makefile.mk
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	tdemo_1_21: 1.1
+	tdemo_1_20: 1.1
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2001/12/07 08:04:09;  author: Administrator;  state: Exp;  lines: +1 -1
+v1.1 development started
+DOM model used
+project description enhanced: configs added
+----------------------------
+revision 1.2
+date: 2001/10/02 05:48:53;  author: Administrator;  state: Exp;  lines: +4 -2
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/09/22 08:07:33;  author: Administrator;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: e:\data\cvs_root/dev0/tool/ide/m.bat,v
+Working file: m.bat
+head: 1.1
+branch:
+locks: strict
+access list:
+symbolic names:
+	tdemo_1_21: 1.1
+	tdemo_1_20: 1.1
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+----------------------------
+revision 1.1
+date: 2001/09/22 08:06:39;  author: Administrator;  state: Exp;
+base version of MAKEFILE generator
+=============================================================================
+
+RCS file: e:\data\cvs_root/dev0/tool/ide/main.cpp,v
+Working file: main.cpp
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	tdemo_1_21: 1.2
+	tdemo_1_20: 1.2
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2001/12/07 08:04:09;  author: Administrator;  state: Exp;  lines: +46 -9
+v1.1 development started
+DOM model used
+project description enhanced: configs added
+----------------------------
+revision 1.2
+date: 2001/09/25 03:18:00;  author: Administrator;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/09/22 08:06:39;  author: Administrator;  state: Exp;
+base version of MAKEFILE generator
+=============================================================================
+
+RCS file: e:\data\cvs_root/dev0/tool/ide/spec.pmd,v
+Working file: spec.pmd
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: b
+total revisions: 4;	selected revisions: 4
+description:
+----------------------------
+revision 1.4
+date: 2001/12/07 08:04:09;  author: Administrator;  state: Exp;  lines: +323 -388
+v1.1 development started
+DOM model used
+project description enhanced: configs added
+----------------------------
+revision 1.3
+date: 2001/11/15 15:51:14;  author: Administrator;  state: Exp;  lines: +410 -660
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2001/11/14 06:01:32;  author: Administrator;  state: Exp;  lines: +624 -410
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2001/11/11 05:46:22;  author: Administrator;  state: Exp;
+spec writing started
+=============================================================================
+
+RCS file: e:\data\cvs_root/dev0/tool/ide/test.xml,v
+Working file: test.xml
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	tdemo_1_21: 1.1
+	tdemo_1_20: 1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2001/12/07 08:04:10;  author: Administrator;  state: Exp;  lines: +26 -15
+v1.1 development started
+DOM model used
+project description enhanced: configs added
+----------------------------
+revision 1.1
+date: 2001/09/22 08:06:39;  author: Administrator;  state: Exp;
+base version of MAKEFILE generator
+=============================================================================

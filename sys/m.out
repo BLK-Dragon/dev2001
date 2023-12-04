@@ -1,0 +1,31 @@
+
+E:\code\dev0\sys>gen_makefile sys.xml core core.make 
+
+E:\code\dev0\sys>gen_makefile sys.xml vfx vfx.make 
+
+E:\code\dev0\sys>gen_makefile sys.xml gui gui.make 
+
+E:\code\dev0\sys>nmake -nologo -f core.make  
+	icl.exe  -c -GR -GX -MD -Od -Qwn3 -Qwd 985 -Zi -DTRACING  Core.cpp
+Core.cpp
+Core.cpp(25): error: identifier "i" is undefined
+  i    int     x_pos;
+  ^
+
+Core.cpp(25): error: expected a ";"
+  i    int     x_pos;
+       ^
+
+
+E:\code\dev0\sys>nmake -nologo -f vfx.make  
+'vfx.lib' is up-to-date
+
+E:\code\dev0\sys>nmake -nologo -f gui.make  
+	icl.exe  -c -GR -GX -MD -Od -Qwn3 -Qwd 985 -Zi  GUImanager.cpp
+GUImanager.cpp
+	icl.exe  -c -GR -GX -MD -Od -Qwn3 -Qwd 985 -Zi  WidgetView.cpp
+WidgetView.cpp
+	lib.exe  -out:gui.lib  GUImanager.obj  WidgetView.obj
+Microsoft (R) Library Manager Version 6.00.8447
+Copyright (C) Microsoft Corp 1992-1998. All rights reserved.
+

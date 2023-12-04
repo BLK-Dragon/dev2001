@@ -1,0 +1,13 @@
+	link                                       -defaultlib:user32.lib                     -defaultlib:gdi32.lib                      -defaultlib:ddraw.lib                      -defaultlib:dxguid.lib                     -defaultlib:..\..\tool\Toster\toster.lib   -defaultlib:..\..\sys\vfx.lib              -out:main.exe                              main.obj
+Microsoft (R) Incremental Linker Version 6.00.8447
+Copyright (C) Microsoft Corp 1992-1998. All rights reserved.
+
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)" (??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ) already defined in libcp.lib(ios.obj)
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: __thiscall std::_Winit::_Winit(void)" (??0_Winit@std@@QAE@XZ) already defined in libcp.lib(wiostrea.obj)
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: __thiscall std::ios_base::Init::Init(void)" (??0Init@ios_base@std@@QAE@XZ) already defined in libcp.lib(iostream.obj)
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: __thiscall std::ios_base::Init::~Init(void)" (??1Init@ios_base@std@@QAE@XZ) already defined in libcp.lib(iostream.obj)
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: __thiscall std::_Winit::~_Winit(void)" (??1_Winit@std@@QAE@XZ) already defined in libcp.lib(wiostrea.obj)
+LINK : warning LNK4098: defaultlib "MSVCRT" conflicts with use of other libs; use /NODEFAULTLIB:library
+vfx.lib(Noise.obj) : error LNK2001: unresolved external symbol "public: __cdecl core::Msg::Msg(char const *,...)" (??0Msg@core@@QAA@PBDZZ)
+vfx.lib(Noise.obj) : error LNK2001: unresolved external symbol "public: __thiscall core::Error::Error(class Error::Msg const &)" (??0Error@core@@QAE@ABVMsg@1@@Z)
+main.exe : fatal error LNK1120: 2 unresolved externals

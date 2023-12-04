@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<workspace>
+
+<macro name="CPPopt" value="-c -O2 -Qansi" />
+
+
+<project
+    name        = "test"
+    target      = "tst.exe"
+>
+
+    <config
+        name = "normal"
+    >
+        <link
+            ext         = "obj"
+            tool        = "link.exe"
+            opt         = "-defaultlib:user32.lib
+                           -debugtype:cv
+                          "
+            before      = "cd .\_normal"
+            after       = "cd .."
+
+            before_all  = "if not exist _normal mkdir _normal"
+        />
+
+        <file_association
+            in_ext  = "cpp"
+            out_ext = "obj"
+            tool    = "icl"
+            opt     = "$(CPPopt) -Fo_normal/"
+        />
+    </config>
+
+
+    <file name = "s1.cpp"></file>
+    <file name = "s2.cpp"></file>
+
+</project>
+
+<project
+    name = "toast"
+>
+</project>
+
+</workspace>

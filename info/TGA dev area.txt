@@ -1,0 +1,31 @@
+TGA dev-area specification
+
+Common
+--------
+  TGA dev area contains some addidional data for image. 
+They are number of images, key color and so on. The dev 
+-area has chunk structure decribed below.
+
+
+Chunk format
+--------------
+  Every chunk starts with four-char code (dword) indicating 
+its purpose; this four-char code followed with dword 
+indicating size of bytes, remaining in chunk.
+
+
+Chunk DATA
+------------
+  This chunk encloses entire dev-area and all other info 
+lying inside of DATA-chunk.
+
+
+Chunk NIMG
+------------
+  Contains dword, equal to number of frames in image.
+
+
+Chunk KEYC
+------------
+  Contains dword indicating keycolor of image, in RGBA form.  
+  

@@ -1,0 +1,39 @@
+# Microsoft Developer Studio Generated Dependency File, included by TGAtool.mak
+
+..\..\sys\Exception.cpp : \
+	"..\..\sys\exception.hpp"\
+	"d:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	"d:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\TGAtool.cpp : \
+	".\StdAfx.h"\
+	".\TGAtool.h"\
+	".\TGAtoolDlg.h"\
+	"d:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\TGAtool.rc : \
+	".\res\TGAtool.ico"\
+	".\res\TGAtool.rc2"\
+	
+
+.\TGAtoolDlg.cpp : \
+	"..\..\sys\core.hpp"\
+	"..\..\sys\ddrawerror.hpp"\
+	"..\..\sys\dinputerror.hpp"\
+	"..\..\sys\exception.hpp"\
+	"..\..\sys\imageformat.hpp"\
+	"..\..\sys\rect.hpp"\
+	"..\..\sys\type.hpp"\
+	"..\..\sys\vector.hpp"\
+	"..\..\sys\win32error.hpp"\
+	".\StdAfx.h"\
+	".\TGAtool.h"\
+	".\TGAtoolDlg.h"\
+	"d:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	

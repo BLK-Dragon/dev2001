@@ -1,0 +1,405 @@
+; -- Machine type P4
+; mark_description "Intel(R) C++ Compiler for 32-bit applications, Version 5.0.1   Build 010525Z";
+; mark_description "-O2 -FAcs";
+;ident "Intel(R) C++ Compiler for 32-bit applications, Version 5.0.1   Build 010525Z"
+;ident "-O2 -FAcs"
+	.486P
+ 	.387
+_TEXT	SEGMENT PARA PUBLIC USE32 'CODE'
+_TEXT	ENDS
+_DATA	SEGMENT PARA PUBLIC USE32 'DATA'
+	ALIGN 010H
+_DATA	ENDS
+_BSS	SEGMENT PARA PUBLIC USE32 'BSS'
+	ALIGN 010H
+_BSS	ENDS
+_RDATA	SEGMENT PARA PUBLIC USE32 'DATA'
+	ALIGN 010H
+_RDATA	ENDS
+_TLS	SEGMENT PARA PUBLIC USE32 'TLS'
+	ALIGN 010H
+_TLS	ENDS
+_DATA1	SEGMENT PARA PUBLIC USE32 'DATA'
+	ALIGN 010H
+_DATA1	ENDS
+_TEXT1	SEGMENT PARA PUBLIC USE32 'CODE'
+	ALIGN 010H
+_TEXT1	ENDS
+	ASSUME	CS:FLAT,DS:FLAT,SS:FLAT
+;ident "Intel(R) C++ Compiler for 32-bit applications, Version 5.0.1   Build 010525Z  : test.cpp : -O2 -FAcs"
+_DATA	SEGMENT PARA PUBLIC USE32 'DATA'
+_DATA	ENDS
+_TEXT	SEGMENT PARA PUBLIC USE32 'CODE'
+;	COMDAT _main
+; -- Begin  _main
+; mark_begin;
+IF @Version GE 612
+  .MMX
+  MMWORD TEXTEQU <QWORD>
+ENDIF
+IF @Version GE 614
+  .XMM
+  XMMWORD TEXTEQU <OWORD>
+ENDIF
+       ALIGN     4
+	PUBLIC   _main
+_main	PROC NEAR
+$B1$1:                          ; Preds $B1$0
+
+;;; {
+
+  00000 53               push ebx                               ;test.cpp:10.1
+  00001 8b dc            mov ebx, esp                           ;test.cpp:10.1
+  00003 83 e4 f8         and esp, -8                            ;test.cpp:10.1
+  00006 55               push ebp                               ;test.cpp:10.1
+  00007 55               push ebp                               ;test.cpp:10.1
+  00008 8b 6b 04         mov ebp, DWORD PTR [ebx+4]             ;test.cpp:10.1
+  0000b 89 6c 24 04      mov DWORD PTR [esp+4], ebp             ;test.cpp:10.1
+  0000f 8b ec            mov ebp, esp                           ;test.cpp:10.1
+  00011 83 ec 18         sub esp, 24                            ;test.cpp:10.1
+
+;;;     typedef Fixed<8,24>    fixed;
+;;; 
+;;;     fixed   f1  = 1.2f;
+;;;     //fixed   f2  = 5;
+;;; 
+;;;     //f1 /= 7;
+;;;     //f2 -= 1;
+;;; 
+;;;     printf( "f1/7 = %f (f1=%f)\n", float(f1/fixed(7.0f)), float(f1) );
+
+  00014 c7 45 e8 00 00 
+        00 07            mov DWORD PTR [ebp-24], 117440512      ;test.cpp:19.42
+  0001b c7 45 ec 34 33 
+        33 01            mov DWORD PTR [ebp-20], 20132660       ;test.cpp:19.44
+  00022 8d 4d ec         lea ecx, DWORD PTR [ebp-20]            ;test.cpp:19.44
+  00025 8d 45 e8         lea eax, DWORD PTR [ebp-24]            ;test.cpp:19.42
+  00028 50               push eax                               ;test.cpp:19.42
+  00029 e8 fc ff ff ff   call ??_0?$Fixed@$07$0BI@@core@@QAEAAV01@ABV01@@Z ;test.cpp:19.42
+                                ; LOE esi edi
+$B1$2:                          ; Preds $B1$1
+  0002e db 45 ec         fild DWORD PTR [ebp-20]                ;test.cpp:19.42
+  00031 83 c4 e8         add esp, -24                           ;test.cpp:19.65
+  00034 d8 0d 38 00 00 
+        00               fmul DWORD PTR $2$12_2il0floatpacket$1 ;test.cpp:19.42
+  0003a c7 04 24 00 00 
+        00 00            mov DWORD PTR [esp], OFFSET FLAT: ??_C@_0BD@A@f1?17?5?$DN?5?$CFf?5?$CIf1?$DN?$CFf?$CJ?6?$AA@ ;test.cpp:19.65
+  00041 dd 5c 24 04      fstp QWORD PTR [esp+4]                 ;test.cpp:19.65
+  00045 dd 05 30 00 00 
+        00               fld QWORD PTR $2$12_2il0floatpacket$3  ;test.cpp:19.65
+  0004b dd 5c 24 0c      fstp QWORD PTR [esp+12]                ;test.cpp:19.65
+  0004f e8 fc ff ff ff   call _printf                           ;test.cpp:19.65
+                                ; LOE esi edi
+$B1$10:                         ; Preds $B1$2
+  00054 83 c4 18         add esp, 24                            ;test.cpp:19.65
+                                ; LOE esi edi
+$B1$3:                          ; Preds $B1$10
+
+;;;     printf( "f1*7 = %f (f1=%f)\n", float(f1*fixed(7.0f)), float(f1) );
+
+  00057 b8 34 33 33 01   mov eax, 20132660                      ;test.cpp:20.44
+  0005c 89 45 f0         mov DWORD PTR [ebp-16], eax            ;test.cpp:20.44
+  0005f 89 45 f4         mov DWORD PTR [ebp-12], eax            ;test.cpp:20.42
+  00062 c7 45 f8 00 00 
+        00 07            mov DWORD PTR [ebp-8], 117440512       ;test.cpp:20.42
+                                ; LOE esi edi
+$B1$11:                         ; Preds $B1$3
+; Begin ASM
+  00069 8b 45 f4         mov eax, DWORD PTR [ebp-12]            ;test.cpp:20.42
+  0006c f7 6d f8         imul DWORD PTR [ebp-8]                 ;test.cpp:20.42
+  0006f 0f ac d0 18      shrd eax, edx, 24                      ;test.cpp:20.42
+  00073 89 45 f4         mov DWORD PTR [ebp-12], eax            ;test.cpp:20.42
+; End ASM
+                                ; LOE esi edi
+$B1$4:                          ; Preds $B1$11
+  00076 8b 45 f4         mov eax, DWORD PTR [ebp-12]            ;test.cpp:20.42
+  00079 83 c4 e8         add esp, -24                           ;test.cpp:20.65
+  0007c 89 45 f0         mov DWORD PTR [ebp-16], eax            ;test.cpp:20.44
+  0007f db 45 f4         fild DWORD PTR [ebp-12]                ;test.cpp:20.42
+  00082 d8 0d 38 00 00 
+        00               fmul DWORD PTR $2$12_2il0floatpacket$1 ;test.cpp:20.42
+  00088 c7 04 24 00 00 
+        00 00            mov DWORD PTR [esp], OFFSET FLAT: ??_C@_0BD@A@f1?$CK7?5?$DN?5?$CFf?5?$CIf1?$DN?$CFf?$CJ?6?$AA@ ;test.cpp:20.65
+  0008f dd 5c 24 04      fstp QWORD PTR [esp+4]                 ;test.cpp:20.65
+  00093 dd 05 30 00 00 
+        00               fld QWORD PTR $2$12_2il0floatpacket$3  ;test.cpp:20.65
+  00099 dd 5c 24 0c      fstp QWORD PTR [esp+12]                ;test.cpp:20.65
+  0009d e8 fc ff ff ff   call _printf                           ;test.cpp:20.65
+                                ; LOE esi edi
+$B1$12:                         ; Preds $B1$4
+  000a2 83 c4 18         add esp, 24                            ;test.cpp:20.65
+                                ; LOE esi edi
+$B1$5:                          ; Preds $B1$12
+
+;;;     printf( "f1+2.6 = %f (f1=%f)\n", float(f1+fixed(2.6f)), float(f1) );
+
+  000a5 83 c4 e8         add esp, -24                           ;test.cpp:21.67
+  000a8 c7 04 24 00 00 
+        00 00            mov DWORD PTR [esp], OFFSET FLAT: ??_C@_0BF@A@f1?$CL2?46?5?$DN?5?$CFf?5?$CIf1?$DN?$CFf?$CJ?6?$AA@ ;test.cpp:21.67
+  000af dd 05 28 00 00 
+        00               fld QWORD PTR $2$12_2il0floatpacket$5  ;test.cpp:21.67
+  000b5 dd 5c 24 04      fstp QWORD PTR [esp+4]                 ;test.cpp:21.67
+  000b9 dd 05 30 00 00 
+        00               fld QWORD PTR $2$12_2il0floatpacket$3  ;test.cpp:21.67
+  000bf dd 5c 24 0c      fstp QWORD PTR [esp+12]                ;test.cpp:21.67
+  000c3 e8 fc ff ff ff   call _printf                           ;test.cpp:21.67
+                                ; LOE esi edi
+$B1$13:                         ; Preds $B1$5
+  000c8 83 c4 18         add esp, 24                            ;test.cpp:21.67
+                                ; LOE esi edi
+$B1$6:                          ; Preds $B1$13
+
+;;;     printf( "f1-2.6 = %f (f1=%f)\n", float(f1-fixed(2.6f)), float(f1) );
+
+  000cb 83 c4 e8         add esp, -24                           ;test.cpp:22.67
+  000ce c7 04 24 00 00 
+        00 00            mov DWORD PTR [esp], OFFSET FLAT: ??_C@_0BF@A@f1?92?46?5?$DN?5?$CFf?5?$CIf1?$DN?$CFf?$CJ?6?$AA@ ;test.cpp:22.67
+  000d5 dd 05 20 00 00 
+        00               fld QWORD PTR $2$12_2il0floatpacket$7  ;test.cpp:22.67
+  000db dd 5c 24 04      fstp QWORD PTR [esp+4]                 ;test.cpp:22.67
+  000df dd 05 30 00 00 
+        00               fld QWORD PTR $2$12_2il0floatpacket$3  ;test.cpp:22.67
+  000e5 dd 5c 24 0c      fstp QWORD PTR [esp+12]                ;test.cpp:22.67
+  000e9 e8 fc ff ff ff   call _printf                           ;test.cpp:22.67
+                                ; LOE esi edi
+$B1$14:                         ; Preds $B1$6
+  000ee 83 c4 18         add esp, 24                            ;test.cpp:22.67
+                                ; LOE esi edi
+$B1$7:                          ; Preds $B1$14
+
+;;;     //printf( "f2 = %i (%08X)\n", int(f2), int(f2) );
+;;; 
+;;;     
+;;; /*    
+;;;     vfx::Color32     c1( 0x22222222 );
+;;; //    vfx::Color32     c2( 0xAAAAAAAA );
+;;; 
+;;;     core::UDword    line1[4] = { 0x00000000, 0x11111111, 0x22222222, 0x33333333 };
+;;; //    core::UDword    line2[20];
+;;; 
+;;;     for( int i=0; i<4; i++ )
+;;;         vfx::Color32( line1+i ) += 0x11111111;
+;;;     
+;;;     
+;;;     for( i=0; i<4; i++ )
+;;;         printf( "line1[%i] == %08X\n", i, line1[i] );
+;;; */
+;;; }
+  000f1 33 c0            xor eax, eax                           ;test.cpp:40.1
+  000f3 8b e5            mov esp, ebp                           ;test.cpp:40.1
+  000f5 5d               pop ebp                                ;test.cpp:40.1
+  000f6 8b e3            mov esp, ebx                           ;test.cpp:40.1
+  000f8 5b               pop ebx                                ;test.cpp:40.1
+  000f9 c3               ret                                    ;test.cpp:40.1
+  000fa 8d b6 00 00 00 
+        00               ALIGN     4
+                                ; LOE
+; mark_end;
+_main ENDP
+;_main	ENDS
+_TEXT	ENDS
+_DATA1	SEGMENT PARA PUBLIC USE32 'DATA'
+	DD 8 DUP (0)	; pad
+$2$12_2il0floatpacket$7	DD 040000000H,0bff66666H	; xf64
+$2$12_2il0floatpacket$5	DD 060000000H,0400e6666H	; xf64
+$2$12_2il0floatpacket$3	DD 040000000H,03ff33333H	; xf64
+$2$12_2il0floatpacket$1	DD 033800000H	; xf32
+_DATA1	ENDS
+_DATA	SEGMENT PARA PUBLIC USE32 'DATA'
+_DATA	ENDS
+; -- End  _main
+_DATA	SEGMENT PARA PUBLIC USE32 'DATA'
+_DATA	ENDS
+_TEXT	SEGMENT PARA PUBLIC USE32 'CODE'
+;	COMDAT ??_0?$Fixed@$07$0BI@@core@@QAEAAV01@ABV01@@Z
+; -- Begin  ??_0?$Fixed@$07$0BI@@core@@QAEAAV01@ABV01@@Z
+; mark_begin;
+       ALIGN     4
+; parameter 1: ecx
+; parameter 2: 8 + ebp
+	PUBLIC   ??_0?$Fixed@$07$0BI@@core@@QAEAAV01@ABV01@@Z
+??_0?$Fixed@$07$0BI@@core@@QAEAAV01@ABV01@@Z	PROC NEAR
+$B2$1:                          ; Preds $B2$0
+
+;;; {
+
+  00000 55               push ebp                               ;..\..\sys\FixedPoint.hpp:146.1
+  00001 8b ec            mov ebp, esp                           ;..\..\sys\FixedPoint.hpp:146.1
+  00003 83 ec 10         sub esp, 16                            ;..\..\sys\FixedPoint.hpp:146.1
+  00006 89 5d f8         mov DWORD PTR [ebp-8], ebx             ;..\..\sys\FixedPoint.hpp:146.1
+  00009 8b 55 08         mov edx, DWORD PTR [ebp+8]             ;..\..\sys\FixedPoint.hpp:145.20
+
+;;;     Dword   op1 = this->val;
+
+  0000c 8b 01            mov eax, DWORD PTR [ecx]               ;..\..\sys\FixedPoint.hpp:147.19
+  0000e 89 45 f0         mov DWORD PTR [ebp-16], eax            ;..\..\sys\FixedPoint.hpp:147.13
+
+;;;     Dword   op2 = f.val;
+
+  00011 8b 02            mov eax, DWORD PTR [edx]               ;..\..\sys\FixedPoint.hpp:148.19
+  00013 89 45 f4         mov DWORD PTR [ebp-12], eax            ;..\..\sys\FixedPoint.hpp:148.13
+                                ; LOE ecx esi edi
+$B2$5:                          ; Preds $B2$1
+; Begin ASM
+
+;;;     
+;;;     __asm{
+;;;             mov     EAX, op1
+
+  00016 8b 45 f0         mov eax, DWORD PTR [ebp-16]            ;..\..\sys\FixedPoint.hpp:151.13
+
+;;;             mov     EBX, op2
+
+  00019 8b 5d f4         mov ebx, DWORD PTR [ebp-12]            ;..\..\sys\FixedPoint.hpp:152.13
+
+;;;             xor     EDX, EDX
+
+  0001c 33 d2            xor edx, edx                           ;..\..\sys\FixedPoint.hpp:153.13
+
+;;; 
+;;;             shld    EDX, EAX, frac
+
+  0001e 0f a4 c2 18      shld edx, eax, 24                      ;..\..\sys\FixedPoint.hpp:155.13
+
+;;; 
+;;;             idiv    EBX
+
+  00022 f7 fb            idiv ebx                               ;..\..\sys\FixedPoint.hpp:157.13
+
+;;;             mov     op1, EAX
+
+  00024 89 45 f0         mov DWORD PTR [ebp-16], eax            ;..\..\sys\FixedPoint.hpp:158.13
+; End ASM
+                                ; LOE ecx esi edi
+$B2$2:                          ; Preds $B2$5
+
+;;;          };
+;;;     
+;;;     this->val = op1;
+
+  00027 8b 55 f0         mov edx, DWORD PTR [ebp-16]            ;..\..\sys\FixedPoint.hpp:161.17
+  0002a 8b c1            mov eax, ecx                           ;..\..\sys\FixedPoint.hpp:146.1
+
+;;; 
+;;;     return *this;
+
+  0002c 8b 5d f8         mov ebx, DWORD PTR [ebp-8]             ;..\..\sys\FixedPoint.hpp:163.12
+  0002f 89 11            mov DWORD PTR [ecx], edx               ;..\..\sys\FixedPoint.hpp:161.5
+  00031 8b e5            mov esp, ebp                           ;..\..\sys\FixedPoint.hpp:163.12
+  00033 5d               pop ebp                                ;..\..\sys\FixedPoint.hpp:163.12
+  00034 c2 04 00         ret 4                                  ;..\..\sys\FixedPoint.hpp:163.12
+  00037 8b f6 8d bc 27 
+        00 00 00 00      ALIGN     4
+                                ; LOE
+; mark_end;
+??_0?$Fixed@$07$0BI@@core@@QAEAAV01@ABV01@@Z ENDP
+;??_0?$Fixed@$07$0BI@@core@@QAEAAV01@ABV01@@Z	ENDS
+_TEXT	ENDS
+_DATA	SEGMENT PARA PUBLIC USE32 'DATA'
+_DATA	ENDS
+; -- End  ??_0?$Fixed@$07$0BI@@core@@QAEAAV01@ABV01@@Z
+_DATA1	SEGMENT PARA PUBLIC USE32 'DATA'
+_DATA1	ENDS
+;	COMDAT ??_C@_0BD@A@f1?17?5?$DN?5?$CFf?5?$CIf1?$DN?$CFf?$CJ?6?$AA@
+_DATA1	SEGMENT PARA PUBLIC USE32 'DATA'
+??_C@_0BD@A@f1?17?5?$DN?5?$CFf?5?$CIf1?$DN?$CFf?$CJ?6?$AA@	DB 102	; s8
+	DB 49	; s8
+	DB 47	; s8
+	DB 55	; s8
+	DB 32	; s8
+	DB 61	; s8
+	DB 32	; s8
+	DB 37	; s8
+	DB 102	; s8
+	DB 32	; s8
+	DB 40	; s8
+	DB 102	; s8
+	DB 49	; s8
+	DB 61	; s8
+	DB 37	; s8
+	DB 102	; s8
+	DB 41	; s8
+	DB 10	; s8
+	DB 0	; s8
+_DATA1	ENDS
+_DATA1	SEGMENT PARA PUBLIC USE32 'DATA'
+_DATA1	ENDS
+;	COMDAT ??_C@_0BD@A@f1?$CK7?5?$DN?5?$CFf?5?$CIf1?$DN?$CFf?$CJ?6?$AA@
+_DATA1	SEGMENT PARA PUBLIC USE32 'DATA'
+??_C@_0BD@A@f1?$CK7?5?$DN?5?$CFf?5?$CIf1?$DN?$CFf?$CJ?6?$AA@	DB 102	; s8
+	DB 49	; s8
+	DB 42	; s8
+	DB 55	; s8
+	DB 32	; s8
+	DB 61	; s8
+	DB 32	; s8
+	DB 37	; s8
+	DB 102	; s8
+	DB 32	; s8
+	DB 40	; s8
+	DB 102	; s8
+	DB 49	; s8
+	DB 61	; s8
+	DB 37	; s8
+	DB 102	; s8
+	DB 41	; s8
+	DB 10	; s8
+	DB 0	; s8
+_DATA1	ENDS
+_DATA1	SEGMENT PARA PUBLIC USE32 'DATA'
+_DATA1	ENDS
+;	COMDAT ??_C@_0BF@A@f1?$CL2?46?5?$DN?5?$CFf?5?$CIf1?$DN?$CFf?$CJ?6?$AA@
+_DATA1	SEGMENT PARA PUBLIC USE32 'DATA'
+??_C@_0BF@A@f1?$CL2?46?5?$DN?5?$CFf?5?$CIf1?$DN?$CFf?$CJ?6?$AA@	DB 102	; s8
+	DB 49	; s8
+	DB 43	; s8
+	DB 50	; s8
+	DB 46	; s8
+	DB 54	; s8
+	DB 32	; s8
+	DB 61	; s8
+	DB 32	; s8
+	DB 37	; s8
+	DB 102	; s8
+	DB 32	; s8
+	DB 40	; s8
+	DB 102	; s8
+	DB 49	; s8
+	DB 61	; s8
+	DB 37	; s8
+	DB 102	; s8
+	DB 41	; s8
+	DB 10	; s8
+	DB 0	; s8
+_DATA1	ENDS
+_DATA1	SEGMENT PARA PUBLIC USE32 'DATA'
+_DATA1	ENDS
+;	COMDAT ??_C@_0BF@A@f1?92?46?5?$DN?5?$CFf?5?$CIf1?$DN?$CFf?$CJ?6?$AA@
+_DATA1	SEGMENT PARA PUBLIC USE32 'DATA'
+??_C@_0BF@A@f1?92?46?5?$DN?5?$CFf?5?$CIf1?$DN?$CFf?$CJ?6?$AA@	DB 102	; s8
+	DB 49	; s8
+	DB 45	; s8
+	DB 50	; s8
+	DB 46	; s8
+	DB 54	; s8
+	DB 32	; s8
+	DB 61	; s8
+	DB 32	; s8
+	DB 37	; s8
+	DB 102	; s8
+	DB 32	; s8
+	DB 40	; s8
+	DB 102	; s8
+	DB 49	; s8
+	DB 61	; s8
+	DB 37	; s8
+	DB 102	; s8
+	DB 41	; s8
+	DB 10	; s8
+	DB 0	; s8
+_DATA1	ENDS
+_DATA	SEGMENT PARA PUBLIC USE32 'DATA'
+_DATA	ENDS
+EXTRN	_printf:PROC
+EXTRN	__fltused:BYTE
+	END

@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+
+<workspace version="1.1">
+
+<project
+    name        = "dwig"
+    out_name    = "dwig"
+>
+    <config name="default">
+        
+        <link
+            ext         = "obj"
+            tool        = "link.exe"
+            opt         = "-opt:ref                        
+                           -debugtype:cv                   
+                           -debug
+                           -defaultlib:user32.lib          
+                           -defaultlib:gdi32.lib           
+                           -defaultlib:dinput.lib          
+                           -defaultlib:ddraw.lib           
+                           -defaultlib:dxguid.lib          
+                           -defaultlib:..\..\sys\_default\core.lib  
+                           -defaultlib:..\..\sys\_default\vfx.lib   
+                           -defaultlib:..\..\sys\_default\gui.lib   
+                           -subsystem:windows              
+                           -out:dwig.exe                  
+                          "
+            before_all  = "if not exist _default mkdir _default"
+        />
+
+        <file_association
+            in_ext  = "cpp"
+            out_ext = "obj"
+            tool    = "icl.exe"
+            opt     = "-c -nologo -GR -GX -O2 -Qwn3 -Qwd 985 -Fo_default/"
+        />
+    
+    </config>
+
+    
+    <file name = "Bout.cpp" ></file>
+    <file name = "DwigApp.cpp" ></file>
+    <file name = "MainMenu.cpp" ></file>
+    <file name = "InitialState.cpp" ></file>
+
+    
+    <!--  Matrix Logic  -->
+
+    <file name = "Clip.cpp"></file>
+    <file name = "Cursor.cpp"></file>
+    <file name = "Indicator.cpp"></file>
+    <file name = "Matrix.cpp"></file>
+    <!--file name = ""></file-->
+
+    
+    <!-- Views -->
+    
+    <file name = "View.cpp"></file>
+    <file name = "ClipView.cpp"></file>
+    <file name = "CursorView.cpp"></file>
+    <file name = "IndicatorView.cpp"></file>
+    <file name = "JumperView.cpp"></file>
+
+</project>
+
+</workspace>

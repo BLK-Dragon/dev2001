@@ -1,0 +1,131 @@
+<?xml version="1.0" ?>
+
+<workspace version="1.1" >
+
+<project
+    name        = "tdemo"
+    target      = "tdemo.exe"
+>
+    <config name="default">
+        
+        <link
+            ext     = "obj"
+            tool    = "link.exe"
+            opt     = "-opt:ref                        
+                       -defaultlib:user32.lib          
+                       -defaultlib:gdi32.lib           
+                       -defaultlib:winmm.lib 
+                       -defaultlib:dinput.lib          
+                       -defaultlib:ddraw.lib           
+                       -defaultlib:dxguid.lib          
+                       -defaultlib:..\..\sys\_default\core.lib  
+                       -defaultlib:..\..\sys\_default\vfx.lib   
+                       -defaultlib:..\..\sys\_default\gui.lib   
+                       -subsystem:windows              
+                       -out:tdemo.exe                  
+                      "
+            before      = ""
+            after       = ""
+            before_all  = "if not exist _default mkdir _default"
+        />
+
+        <file_association
+            in_ext  = "cpp"
+            out_ext = "obj"
+            tool    = "icl.exe"
+            opt     = "-c -GR -GX -O2 -Qwn3 -Qwd 985 -Fo_default/ -Qsox-
+                       -DTRACING
+                      "
+        />
+    </config>
+
+    <config name="debug">
+        
+        <link
+            ext     = "obj"
+            tool    = "link.exe"
+            opt     = "-debug
+                       -debugtype:cv
+                       -opt:ref                        
+                       -defaultlib:user32.lib          
+                       -defaultlib:gdi32.lib           
+                       -defaultlib:winmm.lib 
+                       -defaultlib:dinput.lib          
+                       -defaultlib:ddraw.lib           
+                       -defaultlib:dxguid.lib          
+                       -defaultlib:..\..\sys\_debug\core.lib  
+                       -defaultlib:..\..\sys\_debug\vfx.lib   
+                       -defaultlib:..\..\sys\_debug\gui.lib   
+                       -subsystem:windows              
+                       -out:tdemo.exe                  
+                      "
+            before      = ""
+            after       = ""
+            before_all  = "if not exist _debug mkdir _debug"
+        />
+
+        <file_association
+            in_ext  = "cpp"
+            out_ext = "obj"
+            tool    = "icl.exe"
+            opt     = "-c -GR -GX -Od -Zi -Qwn3 -Qwd 985 -Fo_debug/ -Qsox-
+                       -DTRACING
+                      "
+        />
+
+    </config>
+
+    
+    <config name="optimized">
+        
+        <link
+            ext     = "obj"
+            tool    = "link.exe"
+            opt     = "-opt:ref                        
+                       -defaultlib:user32.lib          
+                       -defaultlib:gdi32.lib           
+                       -defaultlib:winmm.lib 
+                       -defaultlib:dinput.lib          
+                       -defaultlib:ddraw.lib           
+                       -defaultlib:dxguid.lib          
+                       -defaultlib:..\..\sys\_default\core.lib  
+                       -defaultlib:..\..\sys\_default\vfx.lib   
+                       -defaultlib:..\..\sys\_default\gui.lib   
+                       -subsystem:windows              
+                       -out:_optimized\tdemo.exe                  
+                      "
+            before      = ""
+            after       = ''
+            before_all  = "if not exist _optimized mkdir _optimized"
+        />
+
+        <file_association
+            in_ext  = "cpp"
+            out_ext = "obj"
+            tool    = "icl.exe"
+            opt     = "-c -GR -GX -O3 -Og -QxM -QaxM -Oi -Qunroll 
+                       -Qwn3 -Qwd 985 -Fo_optimized/ -Fa_optimized/ -FAcs
+                        -DTRACING
+                      "
+        />
+
+    </config>
+
+    <file name = "Asteroid.cpp" ></file>
+    <file name = "BackgroundGenerator.cpp" ></file>
+    <file name = "Explosion.cpp" ></file>
+    <file name = "GlareStar.cpp" ></file>
+    <file name = "Nebula.cpp" ></file>
+    <file name = "Missile.cpp" ></file>
+    <file name = "PlayerShip.cpp" ></file>
+    <file name = "Rasterizer.cpp" ></file>
+    <file name = "Scaner.cpp" ></file>
+    <file name = "SpaceObject.cpp" ></file>
+    <file name = "Star.cpp" ></file>
+    <file name = "StarField.cpp" ></file>
+    <file name = "Tdemo.cpp" ></file>
+
+
+</project>
+
+</workspace>
