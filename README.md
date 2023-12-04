@@ -1,2 +1,2 @@
 # dev2001
-This is source code аакщь my 2001 coding
+This is source code from my 2001 coding
